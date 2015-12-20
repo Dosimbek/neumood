@@ -4,8 +4,8 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "net.moodle.learn"
         versionCode = "1"
-        version   = "1.0">
-    <name>NEU Moodle</name>
+        version   = "2.7">
+    <name>E-NEU Moodle</name>
 
     <description>
         e-neu Moodle
