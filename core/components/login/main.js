@@ -34,6 +34,10 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/init.html',
         controller: 'mmLoginInitCtrl',
         cache: false // Disable caching to force controller reload.
+        onEnter: function($state) {
+        $state.go('mm_login.credentials', {siteurl: 'http://e.neu.kz'});
+    }
+
     })
 
     .state('mm_login.sites', {
@@ -68,7 +72,8 @@ angular.module('mm.core.login', [])
             }
         }
     })
-
+    
+ 
     .state('mm_login.reconnect', {
         url: '/reconnect',
         templateUrl: 'core/components/login/templates/reconnect.html',
