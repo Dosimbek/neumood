@@ -54,7 +54,7 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl'
       onEnter: function($state) {
-        $state.go('mm_login.credentials', {siteurl: 'http://mymoodle.com'});
+        $state.go('mm_login.credentials', {siteurl: 'http://e.neu.kz'});
     }
         
     })
