@@ -55,8 +55,8 @@
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
     <preference name="iosPersistentFileLocation"        value="Compatibility" />
 
-    <icon src="icon.png" />
-    <gap:splash src="splash.png" />
+    <icon src="resources/icon.png" />
+    <gap:splash src="resources/splash.png" />
 
     <platform name="android">
         <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
